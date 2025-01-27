@@ -3,12 +3,13 @@ id = #
 class = .
 */
 
-
-body{
+/* body{
     background-color: blue;
-}
+} */
 
 h1{
+    
+    border: solid 10px blueviolet;
     background-color: bisque;
     
     color: aqua;
@@ -18,25 +19,32 @@ h1{
     
     font-size: 20px; /* utilizada para modificar 
     o tamanho da fonte(px unidade de medida relativa ao tamanho do monitor)*/
+    
+    width: 50%; 
+
+    height: 40px;
+
+    padding-left: 10px;
 
 }
 
 h3{
     font-size: 16px;
     text-transform: lowercase;
+    background-color: blueviolet;
 }
 
-p{
-    font-size: 29px;
-
-    font-style: italic; /* utilizada para modificar o estilo da fonte*/
-}
 
 .teste{
+    background-color: blue;
     text-align: center; /* utilizada para alinhar o texto*/
     text-indent: 20px; /* utilizada para recuar o texto em todo inicio de paragrafo*/
     font-variant: small-caps; /* utilizada para modificar o texto para caixa alta*/
     text-decoration: underline; /* utilizada para sublinhar o texto*/
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
 }
 
 a{

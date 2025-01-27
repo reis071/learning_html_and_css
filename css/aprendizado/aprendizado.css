@@ -24,14 +24,19 @@ h1{
 
     height: 40px;
 
-    padding-left: 10px;
+    padding: 10px; /*espaçamento interno do conteudo com o elemento */
 
+    margin: 0px;/*espaçamento externo do elemento com os outros elementos*/
+    
 }
 
 h3{
     font-size: 16px;
     text-transform: lowercase;
     background-color: blueviolet;
+    
+    border: 10px solid blue;
+    outline: dashed 10px; /*adiciona uma "borda" ao elemento*/ 
 }
 
 
@@ -49,4 +54,30 @@ h3{
 
 a{
       text-decoration: none;
+}
+
+#teste{
+    background-color: cadetblue;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    box-sizing: border-box;
+
+    text-align: center;
+
+}
+
+#aoba{
+    background-color: chartreuse;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+a:hover{/* quando o mouse passar por cima do elemento ele ira mudar de cor*/
+    background-color: black;
+}
+
+a:active{/* quando o mouse clicar no elemento ele ira mudar de cor*/
+    background-color: red;
 }

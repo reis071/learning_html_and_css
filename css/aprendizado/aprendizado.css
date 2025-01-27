@@ -1,3 +1,12 @@
+/* 
+id = #
+class = .
+*/
+
+
+body{
+    background-color: blue;
+}
 
 h1{
     background-color: bisque;
@@ -26,4 +35,10 @@ p{
 .teste{
     text-align: center; /* utilizada para alinhar o texto*/
     text-indent: 20px; /* utilizada para recuar o texto em todo inicio de paragrafo*/
+    font-variant: small-caps; /* utilizada para modificar o texto para caixa alta*/
+    text-decoration: underline; /* utilizada para sublinhar o texto*/
+}
+
+a{
+      text-decoration: none;
 }

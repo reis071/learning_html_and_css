@@ -7,13 +7,19 @@ class = .
     background-color: blue;
 } */
 
+body{
+    background-image: url(../../html/aprendizado/download.png); /* utilizada para adicionar uma imagem de fundo*/
+    background-repeat: no-repeat; /* utilizada para não repetir a imagem de fundo*/
+    background-size: 100px 400px; /* utilizada para definir o tamanho da imagem de fundo*/
+    background-attachment: fixed; /* utilizada para fixar a imagem de fundo*/
+    background-position: right bottom;/* utilizada para posicionar a imagem de fundo*/
+    line-height: 2; /* utilizada para definir o espaçamento entre as linhas de texto*/
+}
+
 h1{
-    
     border: solid 10px blueviolet;
     background-color: bisque;
-    
     color: aqua;
-    
     font-family: Arial, Helvetica, sans-serif; /* utilizada para modificar a fonte do texto,
     lista de fontes pelo fator de que se o navegador não obtiver a fonte deseja ele tenta outra! */
     

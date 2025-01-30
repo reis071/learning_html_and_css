@@ -56,6 +56,7 @@ h3{
     padding-left: 30px;
     padding-bottom: 30px;
     margin: 0px;
+    overflow: scroll; /* utilizada para adicionar uma barra de rolagem ao elemento*/
 }
 
 a{
@@ -87,3 +88,7 @@ a:hover{/* quando o mouse passar por cima do elemento ele ira mudar de cor*/
 a:active{/* quando o mouse clicar no elemento ele ira mudar de cor*/
     background-color: red;
 }
+
+
+#container{
+    background-color: blue;}

@@ -1,0 +1,56 @@
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+main{
+    background: white;
+    height: 300px;
+    width: 400px;
+    overflow-y: scroll;
+   
+}
+
+.contatos{
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.contato{
+    border-top: grey solid 0.1px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;   
+    gap: 20px;
+    
+}
+
+.perfil{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    width: 70px;
+
+}
+
+.info{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+}
+
+.info h2{
+    margin-bottom: 0px;
+    font-size: medium;
+}
+.info p{
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: small;   
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        section{
+            padding: 3px;
+            border: blueviolet 5px solid;
+            height: 200px;
+           
+            /*flexbox*/
+
+            display: flex; /*flexbox para ajustar os elementos de acordo com o tamanho do elemento pai*/
+            flex-wrap: wrap; /*quebra de linha*/
+            flex-direction: row; /*alinha os elementos em linha*/
+            flex-flow: row wrap; /*flex-direction e flex-wrap juntos*/ 
+            flex-grow: 1; /*aumenta o tamanho do elemento de acordo com as sobras dos espaços 
+            no inicio e fim*/
+            flex-basis: content; /*tamanho do elemento*/ 
+            flex-shrink: inherit; /*diminui o tamanho do elemento de acordo com o tamanho do elemento pai*/
+            justify-content: center; /*alinha os elementos no centro =  horizontal*/
+            align-items: end; /*alinha os elementos no final = vertical*/ 
+            align-content: center; /*alinha os elementos no final  se tiver mais de uma linha = vertical*/ 
+            
+        }
+
+        section .teste{
+            border: green 2px solid;
+            width: 40%;
+            margin: 40px;
+            height: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="teste">1</div>
+        <div class="teste">2</div>
+        <div class="teste">3</div>
+        <div class="teste">4</div>
+    </section>
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,13 @@
 <body>
     <script>
         let primeiroNumero = parseInt( prompt('Digite o primeiro numero'))
-        let segundoNumero = parseInt( prompt('Digite o segundo numero'))
-        
-        let media = (primeiroNumero + segundoNumero) / 2;
-
-        if (media >= 7){
-            alert('Aprovado');
+    
+        if (primeiroNumero > 10){
+            alert('Maior que 10');
         }else{
-            alert('Reprovado');    
+            alert('Menor que 10');
         }
-
     </script>
+
 </body>
 </html>

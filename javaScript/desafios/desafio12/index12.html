@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let contador = 0
+        
+        while(true){
+            
+            let primeiroDado = Math.floor((Math.random() * 6) + 1) 
+            
+            let segundoDado = Math.floor((Math.random() * 6) + 1) 
+            
+            if (primeiroDado === segundoDado){
+                break
+            }
+
+            contador+= 1;
+        }
+
+        console.log(`Os valores do dados sorteados foram iguais! Quantidade de lançamentos: ${contador}`)
+    </script>
+</body>
+</html>

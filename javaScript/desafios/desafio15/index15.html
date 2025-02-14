@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
     <script>
-        let diasDaSemana = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado'];
-        let semana = new Date().getDay();
-
-        console.log(diasDaSemana[semana]);
+        let listaDeNumeros = [1,2,3,4,5,6,7,8,9,10]
+        let acumulador = 0
+        for(let i = 0; i < listaDeNumeros.length; i++){
+            acumulador +=listaDeNumeros[i]
+        }
+        console.log(acumulador)
     </script>
-
 </body>
 </html>
